@@ -1,52 +1,84 @@
-SaudaçãoApp
-Bem-vindo ao SaudaçãoApp, uma aplicação de exemplo desenvolvida usando o framework PyQt5.
+# 🙋‍♂️ SaudaçãoApp – Aplicativo de Boas-Vindas com PyQt5
 
-Descrição
-O SaudaçãoApp é uma aplicação gráfica que permite aos usuários inserir seus nomes, gerar saudações personalizadas e realizar algumas ações adicionais, proporcionando uma experiência interativa e amigável.
+Bem-vindo ao **SaudaçãoApp**, uma aplicação gráfica simples e interativa desenvolvida com **PyQt5**. Ideal para uso em recepções, sistemas de atendimento ou até como exemplo de estudos com GUI em Python.
 
-Funcionalidades Principais
-Saudação Personalizada:
+---
 
-Insira seu nome e clique no botão para receber uma saudação personalizada.
-Restaurar Padrão:
+## 🧠 Descrição
 
-Restaure a saudação padrão e limpe o campo de entrada.
-Ações Adicionais:
+O SaudaçãoApp permite ao usuário inserir seu nome e receber uma **mensagem de saudação personalizada**, além de realizar ações adicionais como copiar a saudação, salvar em arquivo, carregar saudações e ativar modo tela cheia. Tudo isso com uma interface intuitiva e amigável.
 
-Copie a saudação para a Área de Transferência.
-Salve a saudação em um arquivo.
-Carregue uma saudação personalizada de um arquivo.
-Ative o Modo de Tela Cheia.
-Menu de Arquivo:
+---
 
-Opções para fechar a aplicação e salvar configurações.
-Menu de Ajuda:
+## 🚀 Funcionalidades
 
-Informações sobre a aplicação.
-Barra de Status:
+- ✍️ Inserção de Nome: Gera saudações personalizadas com base no nome informado  
+- ♻️ Restaurar Saudação Padrão: Limpa a entrada e reseta o texto padrão  
+- 📋 Copiar Saudação: Copia a saudação para a área de transferência  
+- 💾 Salvar em Arquivo: Salva a saudação gerada em um `.txt`  
+- 📂 Carregar de Arquivo: Carrega uma saudação previamente salva  
+- 🖥️ Modo Tela Cheia: Interface ocupa toda a tela  
+- 📚 Histórico: Exibe saudações anteriores feitas durante a sessão  
+- 🧭 Menu de Arquivo: Opções para salvar configurações ou fechar o app  
+- 🆘 Menu de Ajuda: Informações sobre o funcionamento da aplicação  
+- 📌 Barra de Status: Mensagens de contexto e feedback em tempo real
 
-Exibe mensagens úteis.
-Como Usar
-Execução:
-Execute o script saudacao_app.py usando Python.
-bash
-Copy code
-python saudacao_app.py
-Interface Gráfica:
+---
 
-Insira seu nome no campo de entrada.
-Experimente as diferentes funcionalidades clicando nos botões.
-Menu:
+## 🛠️ Requisitos
 
-Explore as opções do menu para fechar a aplicação e salvar configurações.
-Histórico:
+- Python 3.x  
+- PyQt5 (`pip install pyqt5`)
 
-Visualize o histórico de saudações clicando no botão "Histórico".
-Requisitos
-Python 3.x
-PyQt5
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull.
+---
 
-Licença
-Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE.md para obter detalhes.
+## ▶️ Como Executar
+
+1. Clone o repositório:  
+   git clone https://github.com/WallanDavid/python-recepcao-terminal.git
+
+2. Acesse a pasta do projeto:  
+   cd python-recepcao-terminal
+
+3. Execute o script principal:  
+   python gerarotulo.py
+
+---
+
+## 🖱️ Como Usar
+
+- Digite seu nome no campo de entrada  
+- Clique no botão principal para gerar a saudação  
+- Explore os botões adicionais: Copiar, Salvar, Restaurar etc.  
+- Use o menu superior para ações como sair ou carregar arquivos  
+- Clique em "Histórico" para ver mensagens anteriores
+
+---
+
+## 💡 Possíveis Melhorias Futuras
+
+- Exportar histórico completo para CSV ou TXT  
+- Animações e transições na interface  
+- Integração com voz (text-to-speech) para leitura da saudação  
+- Suporte multilíngue (internacionalização)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são super bem-vindas!  
+Sinta-se à vontade para abrir uma issue, sugerir melhorias ou enviar um pull request.
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
+
+---
+
+## 📫 Contato
+
+**Desenvolvedor:** Wallan David Peixoto  
+**Email:** bobwallan2@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/wallanpeixoto
